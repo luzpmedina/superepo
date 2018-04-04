@@ -22,7 +22,7 @@ $productos = obtenerProductos("SELECT * FROM productos");
 ?>
 <div class="container">
 
-<cite> Bienvenido <?php echo $_SESSION["micuenta"]; ?>
+<cite> hola github<?php echo $_SESSION["micuenta"]; ?>
 	
   <a href="./admin/sesion.php" style="float:right;"> [X] cerrar sesion</a>
 
